@@ -1,0 +1,31 @@
+.wrapper {
+    margin-bottom: 50px;
+}
+
+#form {
+    background-color: grey;
+}
+
+#div {
+    background-color: aquamarine;
+}
+
+#p {
+    background-color: yellow;
+}
+
+#form, #div, #p {
+    border: 1px solid black;
+    max-width: 200px;
+    padding: 20px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+#wrapper > button {
+    margin-bottom: 10px;
+}
